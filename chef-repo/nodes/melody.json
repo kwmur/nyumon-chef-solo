@@ -1,6 +1,7 @@
 {
   "run_list":[
-// "nginx"
+    "hello",
+// "nginx",
     "zsh"
   ]
 }
