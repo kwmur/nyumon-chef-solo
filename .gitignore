@@ -1,4 +1,6 @@
 .vagrant/
+Gemfile.lock
+vendor/bundle
 
 # Vim
 *~
