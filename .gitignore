@@ -1,6 +1,6 @@
 .vagrant/
 Gemfile.lock
-vendor/bundle
+vendor/bundle/*
 
 # Vim
 *~
