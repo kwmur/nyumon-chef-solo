@@ -1,6 +1,12 @@
+# vagrant
 .vagrant/
+
+# bundler
 Gemfile.lock
 vendor/bundle/*
+
+# chef
+/cookbooks/
 
 # Vim
 *~

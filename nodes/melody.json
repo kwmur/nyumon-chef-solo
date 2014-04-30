@@ -1,0 +1,13 @@
+{
+  "nginx": {
+    "port": 80
+  },
+
+  "run_list":[
+    "hello",
+    "yum-epel",
+//"nginx",
+    "zsh"
+  ]
+}
+
