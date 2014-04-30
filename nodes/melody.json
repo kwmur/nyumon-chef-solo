@@ -6,7 +6,8 @@
   "run_list":[
     "hello",
     "yum-epel",
-//"nginx",
+    "iptables",
+    "nginx",
     "zsh"
   ]
 }
