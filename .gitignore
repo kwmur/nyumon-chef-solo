@@ -5,6 +5,9 @@
 Gemfile.lock
 vendor/bundle/*
 
+# Berkshelf
+Berksfile.lock
+
 # chef
 /cookbooks/
 
