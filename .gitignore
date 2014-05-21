@@ -1,18 +1,24 @@
-# vagrant
-.vagrant/
-
-# bundler
-Gemfile.lock
-vendor/bundle/*
-
-# Berkshelf
-Berksfile.lock
-
-# chef
-/cookbooks/
-
 # Vim
 *~
-.*~
-*.swp
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+pkg/
+
+# Berkshelf
+/cookbooks
+Berksfile.lock
+
+# vagrant
+.vagrant
+
+# Bundler
+Gemfile.lock
+bin/*
+/vendor
+
+# chef
+/cookbooks
 
