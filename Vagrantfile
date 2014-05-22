@@ -104,7 +104,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
           {
             'user' => 'vagrant',
             'rubies' => ['2.1.2'],
-            'global' => '2.1.2'
+            'global' => '2.1.2',
+            'gems' => {
+              '2.1.2' => [
+                { 'name'    => 'bundler', }
+              ]
+            }
           }
         ]
       }
